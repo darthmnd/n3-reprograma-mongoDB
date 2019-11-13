@@ -1,0 +1,54 @@
+//Selecione todos os registros.
+db.aluna.find()
+
+//Selecione todos os registros e deixe a com apresentação melhor.
+db.aluna.find().pretty()
+
+//Selecione todos os registros em que o nome seja igual a 'Ada Lovelace'.
+db.aluna.find({nome:"Ada Lovelace"}).pretty()
+
+//Selecione todos os registros em que o nome seja igual a 'Grace Hopper'.
+db.aluna.find({nome:"Grace Hopper"}).pretty()
+
+//Selecione todos os registros em que a profissão seja 'Matemática'.
+ db.aluna.find({profissao:"Matemática"}).pretty()
+
+//Selecione todos os registros onde o nome seja igual a 'Ada Lovelace' e a profissão seja 'Matemática'.
+db.aluna.find({nome:"Ada Lovelace", profissao:"Matemática"}).pretty()
+
+//Selecione todos os registros em que o nome seja igual a 'Ada Lovelace' OU 'Grace Hopper'.
+db.aluna.find({$or:[{nome:"Ada Lovelace"},{nome:"Grace Hopper"}]}).pretty()
+
+//Pegue o exercício acima e inclua: onde o localNascimento seja igual 'Nova York'.
+db.aluna.find({$or:[{nome:"Ada Lovelace"},{nome:"Grace Hopper"}, {localNascimento:"Nova York"}]}).pretty()
+
+//Trabalhe com um operador diferente de 'OU' para trazer todos os registros onde as profissões sejam iguais a 'Matemática' ou 'Cientista da Computação'.
+db.aluna.find({"profissao":{$in: ["Matemática", "Cientista da Computação"]}}).pretty()
+
+//Utilizando os dois operadores juntos. $or e $in.
+Procure todas as alunas cujo nome seja igual a 'Ada Lovelace' ou a profissão seja igual a 'Cientista da Computação' ou 'Matemática'.
+db.aluna.find({$or:[{nome:"Ada Lovelace"},{"profissao":{$in: ["Matemática", "Cientista da Computação"]}}]}).pretty()
+
+//Selecione todos os registros em que os nomes contenham em qualquer parte da palavra a letra 'p
+db.aluna.find({ "nome" : /p/ }).pretty()
+
+//Selecione todos os registros em que os nomes terminem com a letra 's'.
+db.aluna.find({ "nome" : /s$/ }).pretty()
+
+//Selecione todos os registros em que os nomes terminem com a letra 'w'
+db.aluna.find({ "nome" : /w$/ }).pretty()
+
+//Selecione todos os registros em que os nomes terminem com a letra 's' ou 'w'
+db.aluna.find({ nome: /s$|w$/  }).pretty()
+
+//Selecione todos os registros em que os nomes comecem com a letra 'A'
+db.aluna.find({ "nome" : /^A/ }).pretty()
+
+//Selecione todos os registros em que os nomes comecem com a letra 'K' ou 'J'.
+db.aluna.find({ nome: /^K|^J/  }).pretty()
+
+//ordem alfabética
+db.alunas.find({}).sort(1) ou sort(-1)
+
+//ordenar por data
+db.aluna.find({anoNascimento: {$gt: 1900}})
