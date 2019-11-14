@@ -1,0 +1,186 @@
+/* 1 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c52"),
+    "Ordem" : 1,
+    "Nome" : "Batman",
+    "Data Nascimento" : "25/03/1996",
+    "Local" : "Detroit",
+    "Qtd Gatos" : 2,
+    "Qtd Cachorros" : 7
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c53"),
+    "Ordem" : 2,
+    "Nome" : "Capitão América",
+    "Data Nascimento" : "01/04/1996",
+    "Local" : "EUA",
+    "Qtd Gatos" : 0,
+    "Qtd Cachorros" : 9
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c54"),
+    "Ordem" : 4,
+    "Nome" : "Shrek",
+    "Data Nascimento" : "08/04/1996",
+    "Local" : "Londres",
+    "Qtd Gatos" : 5,
+    "Qtd Cachorros" : 2
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c55"),
+    "Ordem" : 3,
+    "Nome" : "Homem Formiga",
+    "Data Nascimento" : "29/07/1996",
+    "Local" : "Londres",
+    "Qtd Gatos" : 4,
+    "Qtd Cachorros" : 5
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c56"),
+    "Ordem" : 5,
+    "Nome" : "Popeye",
+    "Data Nascimento" : "22/07/1996",
+    "Local" : "São Paulo",
+    "Qtd Gatos" : 2,
+    "Qtd Cachorros" : 1
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c57"),
+    "Ordem" : 6,
+    "Nome" : "Mulher Maravilha",
+    "Data Nascimento" : "15/04/1996",
+    "Local" : "Itália",
+    "Qtd Gatos" : 3,
+    "Qtd Cachorros" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c58"),
+    "Ordem" : 8,
+    "Nome" : "Pantera Negra",
+    "Data Nascimento" : "22/04/1996",
+    "Local" : "Roma",
+    "Qtd Gatos" : 1,
+    "Qtd Cachorros" : 3
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c59"),
+    "Ordem" : 9,
+    "Nome" : "Hulk",
+    "Data Nascimento" : "10/06/1996",
+    "Local" : "Paris",
+    "Qtd Gatos" : 1,
+    "Qtd Cachorros" : 1
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c5a"),
+    "Ordem" : 10,
+    "Nome" : "Homem Aranha",
+    "Data Nascimento" : "17/06/1996",
+    "Local" : "Suécia",
+    "Qtd Gatos" : 0,
+    "Qtd Cachorros" : 2
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c5b"),
+    "Ordem" : 12,
+    "Nome" : "Deadpool",
+    "Data Nascimento" : "01/07/1996",
+    "Local" : "Suécia",
+    "Qtd Gatos" : 3,
+    "Qtd Cachorros" : 4
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c5c"),
+    "Ordem" : 11,
+    "Nome" : "Wolverine",
+    "Data Nascimento" : "24/06/1996",
+    "Local" : "Austrália",
+    "Qtd Gatos" : 2,
+    "Qtd Cachorros" : 0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c5d"),
+    "Ordem" : 13,
+    "Nome" : "Thor",
+    "Data Nascimento" : "08/07/1996",
+    "Local" : "RJ",
+    "Qtd Gatos" : 4,
+    "Qtd Cachorros" : 5
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c5e"),
+    "Ordem" : 7,
+    "Nome" : "Hawkeye",
+    "Data Nascimento" : "22/04/1996",
+    "Local" : "Roma",
+    "Qtd Gatos" : 1,
+    "Qtd Cachorros" : 0
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5dcc9b3a948fb091ac785c5f"),
+    "Ordem" : 14,
+    "Nome" : "Justiceiro",
+    "Data Nascimento" : "15/07/1996",
+    "Local" : "RJ",
+    "Qtd Gatos" : 5,
+    "Qtd Cachorros" : 6
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5dcca71b0935af4cc39ed67b"),
+    "Ordem" : 20.0,
+    "Nome" : "Capitã Marvel",
+    "Data Nascimento" : "08/05/1975",
+    "Local" : "Estados Unidos",
+    "Qtd Gatos" : 1.0,
+    "Qtd Cachorros" : 0.0
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5dcca7710935af4cc39ed67c"),
+    "Ordem" : 34.0,
+    "Nome" : "Vespa",
+    "Data Nascimento" : "07/09/1980",
+    "Local" : "Paris",
+    "Qtd Gatos" : 0.0,
+    "Qtd Cachorros" : 2.0
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5dcca81c0935af4cc39ed67d"),
+    "Ordem" : 70.0,
+    "Nome" : "Vampira",
+    "Data Nascimento" : "06/06/1966",
+    "Local" : "Suécia",
+    "Qtd Gatos" : 7.0,
+    "Qtd Cachorros" : 2.0
+}
